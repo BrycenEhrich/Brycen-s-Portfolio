@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img { display: block; }
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+    background-color: bisque;
+    font-size: large;
+}
+
+.hero {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.h1 {
+    font-size: 500%;
+}
+
+.profile-pic-figure {
+    width: 35%;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;
+}
+
+.App-Link {
+    font-size: 150%;
+}
+
+h2 {
+    padding: 20px;
+}
+
+.App-Image-1 img {
+    padding: 20px;
+    width: 35%;
+}
+
+.App-Image-2and3 img {
+    padding: 20px;
+    width: 25%;
+}
